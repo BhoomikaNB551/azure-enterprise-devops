@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.env
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Local secrets
+.env.*
+!.env.example
+
+# OS/editor files
+.DS_Store
+.vscode/
